@@ -1,0 +1,49 @@
+[
+    {
+        "id":1,
+        "Region":"Chennai",
+        "State":"TamilNadu"
+    },
+      {
+        "id":2,
+        "Region":"Coimbatore",
+        "State":"TamilNadu"
+    },  {
+        "id":3,
+        "Region":"Trichy",
+        "State":"TamilNadu"
+    },  {
+        "id":4,
+        "Region":"Thanjavur",
+        "State":"TamilNadu"
+    },  {
+        "id":5,
+        "Region":"Trivandram",
+        "State":"Kerala"
+    },  {
+        "id":6,
+        "Region":"Kochi",
+        "State":"Kerala"
+    },  {
+        "id":7,
+        "Region":"Kozhikode",
+        "State":"Kerala"
+    },  {
+        "id":8,
+        "Region":"Tripati",
+        "State":"Andhra Pradesh"
+    },
+     {
+        "id":9,
+        "Region":"Ongole",
+        "State":"Andhra Pradesh"
+    }, {
+        "id":10,
+        "Region":"vizag",
+        "State":"Andhra Pradesh"
+    }, {
+        "id":11,
+        "Region":"thrissur",
+        "State":"Kerala"
+    }
+]

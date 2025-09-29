@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+[data-state="checked"] svg circle {
+  @apply fill-yellow-400 stroke-yellow-400;
+}

@@ -1,0 +1,47 @@
+/* Custom Radio style*/
+.custom-radio {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #FFD300;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  margin-right: 8px;
+  transition: all 0.2s ease;
+}
+
+.custom-radio:checked::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #FFD300;
+}
+
+/* Custom Checkbox style*/
+.custom-checkbox {
+  appearance: none;
+  width: 30px;
+  height: 20px;
+  border: 2px solid #FFD300;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+  margin: 0 8px -4px 0;
+}
+
+.custom-checkbox:checked::after {
+  content: "✔";
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  font-size: 16px;
+  color: #FFD300;
+}
